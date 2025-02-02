@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* landing page section  */
+/* header  */
+header {
+
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+    position: fixed;
+    width: 95%;
+    z-index: 10000;
+}
+
+header .logo {
+    height: 38px;
+    margin: 0 0 0 20px;
+}
+
+header .logo img {
+   height: inherit;
+   position: relative;
+    top: -3px;
+}
+
+header .menubar {
+    margin-right: 20px;
+}
+
+header .menubar ul {
+    display: flex;
+    gap: 25px;
+}
+
+header .menubar ul li {
+    list-style: none;
+}
+
+header .menubar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #111;
+
+}
+
+header #home,
+header #private,
+ header #government  {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.landing-pg {
+    background: linear-gradient(skyblue, white);
+    height: 100vh;
+}
+
+.landing-pg img {
+    height: 34em;
+    position: static;
+    float: right;
+    margin-top: 85px;
+}
+
+.landing-pg .caption {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 300px;
+}
+
+.landing-pg .caption p {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.landing-pg .caption a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 28px;
+    margin: 20px 0;
+}
+
+.landing-pg .caption a:hover {
+    background-color: rgb(155, 2, 32);
+    transition: .1s ease-in;
+}
+
+/* Dream Tools  */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.content h1 {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(97, 7, 25);
+    font-size: 50px;
+    margin: 20px 0;
+
+}
+
+.content .QuickLink {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: inherit;
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.content .box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 28px;
+    color: rgb(66, 65, 65);
+    margin: 3px;
+    border: 1px solid crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+
+.content .box1 {
+    background: linear-gradient(#fff, rgb(255 166 0 / 21%));
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+.content .box2 {
+    background:linear-gradient(180deg, white, #36ac4a73);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box3 {
+    background: linear-gradient(#fff, rgba(183, 255, 0, 0.21));
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box4 {
+    background: linear-gradient(#fff, rgba(249, 4, 4, 0.21));
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box5 {
+    background: linear-gradient(180deg, white, #ac363673);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box6 {
+    background: linear-gradient(white, rgba(172, 54, 133, 0.45));
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box7 {
+    background: linear-gradient(180deg, white, #365fac73);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box8 {
+    background:linear-gradient(180deg, white, #36ac4a73);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.content .box h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.content .box a {
+    color: crimson;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.content .box a:hover {
+
+    color: darkblue;
+    transform: scale(1.06);
+    transition: all .3s ease-in-out;
+
+}
+
+/* catagory section  */
+
+.catagory {
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catagory .box {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(#fff, rgb(255 166 0 / 21%));
+    width: 25vw;
+    height: 30vh;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.25);
+
+}
+
+.catagory .box2 {
+    background: linear-gradient(180deg, white, #36ac4a73);
+}
+
+.catagory .box3 {
+    background: linear-gradient(180deg, white, #365fac73);
+}
+
+.catagory .box4 {
+    background: linear-gradient(180deg, white, #ac368573);
+}
+
+.catagory .box5 {
+    background: linear-gradient(180deg, white, #ac753673);
+}
+
+.catagory .box6 {
+    background: linear-gradient(180deg, white, #ac363673);
+}
+
+.catagory .box div {
+    margin-left: 45px;
+}
+
+.catagory .box div p {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.catagory .box div h2 {
+    margin: 7px 0;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+.catagory .box a {
+    margin-left: 45px;
+    background-color: crimson;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 11px;
+}
+
+
+.catagory .box a:hover {
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 6px 4px black;
+    transform: scale(1.05);
+}
+
+/* alert section  */
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    margin: 100px 0;
+}
+
+.alert h2 {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(97, 7, 25);
+    margin-bottom: 20px;
+}
+
+/* feedback section  */
+
+
+.fd-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #095a55; */
+
+}
+/* .fd-sec::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+   
+} */
+
+.fd-sec .container
+{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+    /* border-radius: 22px; */
+    /* background-color: #fff; */
+
+}
+
+.fd-sec .container .contactInfo
+{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background:linear-gradient(270deg, skyblue, crimson);
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
+    border-radius: 22px;
+}
+
+.fd-sec .container .contactInfo h2
+{
+    color: #fff;
+    font-size:24px;
+    font-weight: 500;
+}
+
+.fd-sec .container .contactInfo ul.info 
+{
+   position: relative;
+   margin: 20px 0; 
+}
+
+.fd-sec .container .contactInfo ul.info li
+{
+   position: relative;
+   list-style: none;
+   display: flex;
+   margin: 20px 0;
+   cursor: pointer;
+   align-items: flex-start;
+   color: #fff;
+}
+
+.fd-sec .container .contactInfo ul.info li span:nth-child(1)
+{
+    width: 30px;
+    min-width: 30px;
+}
+
+/* for gmail */
+.fd-sec .container .contactInfo ul.info li span a
+{
+    color: #fff;
+    text-decoration: none;
+    width: 30px;
+    min-width: 30px;
+    
+}
+
+.fd-sec .container .contactInfo ul.info li span:nth-child(1) img
+{
+    max-width: 100%;
+    filter: invert(1);
+}
+
+.fd-sec .container .contactInfo ul.info li span:nth-child(2)
+{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.fd-sec .container .contactInfo ul.sci
+{
+    position: relative;
+    display: flex;
+}
+
+.fd-sec .container .contactInfo ul.sci li
+{
+   list-style: none;  
+   margin-right: 15px;
+}
+
+.fd-sec .container .contactInfo ul.sci li a
+{
+   text-decoration: none;
+   color: #fff;
+}
+
+
+
+.fd-sec .container .contactForm
+{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    height: 100%;
+    background: #fff; 
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+    border-radius: 22px;
+}
+
+.fd-sec .container .contactForm h2
+{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fd-sec .container .contactForm .formBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox
+{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox.w50
+{
+    width: 47%;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox.w100
+{
+    width: 100%;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox input,
+.fd-sec .container .contactForm .formBox .inputBox textarea 
+{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox textarea 
+{
+    height: 120px;
+}
+ 
+.fd-sec .container .contactForm .formBox .inputBox span 
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.fd-sec .container .contactForm .formBox .inputBox input:focus ~ span,
+.fd-sec .container .contactForm .formBox .inputBox input:valid ~ span,
+.fd-sec .container .contactForm .formBox .inputBox textarea:focus ~ span, 
+.fd-sec .container .contactForm .formBox .inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size:  12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #095a55;
+    font-weight: 500;
+} 
+
+/* Css for the submit button */
+.fd-sec .container .contactForm .formBox .inputBox input[type="submit"]         
+{
+    position: relative;
+    cursor: pointer;
+    background:linear-gradient(270deg, skyblue, crimson);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+
+}
+
+.fd-sec .container .contactForm .formBox .inputBox input[type="submit"]:hover{
+    background: #0d9480;
+}
+
+
+/* fixed btn pg-up  */
+

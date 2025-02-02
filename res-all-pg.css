@@ -1,0 +1,101 @@
+/* make the form responsive */
+@media (max-width: 1200px)
+{
+    .fd-sec .container
+    {
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+
+    .fd-sec .container .contactInfo
+    {
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .fd-sec .container .contactForm
+    {
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .fd-sec
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #fff38e;
+    }
+
+    .fd-sec::before
+    {
+        display: none;
+    }
+
+    .fd-sec .container
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fd-sec .container .contactForm
+    {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+    }
+
+    .fd-sec .container .contactInfo
+    {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        border-radius: 0px;
+    }
+    .fd-sec .container .contactInfo ul.sci
+    {
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .fd-sec .container .contactForm
+    {
+        padding: 25px;
+    }
+
+    .fd-sec .container .contactInfo{
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fd-sec .container .contactInfo ul.sci
+    {
+        margin-top: 40px;
+    }
+
+    .fd-sec .container .contactForm .formBox .inputBox.w50
+    {
+        width: 100%;
+    }
+}
